@@ -1,7 +1,7 @@
-# Question and Answer plugin for the NodeBB registration form
+# Question and Answer plugin for the NodeBB registration form - Last Life fork
 
-A really simple plugin that adds a field to your registration page to help prevent spammers. Set your question and answer in the ACP.
+A custom fork of [nodebb-plugin-registration-question](https://github.com/psychobunny/nodebb-plugin-registration-question), with customizations specifically for nodebb-theme-lastlife.
 
 ## Installation
 
-    npm install nodebb-plugin-registration-question
+    npm install nodebb-plugin-lastlife-registration-question

@@ -1,8 +1,8 @@
 {
-	"id": "nodebb-plugin-registration-question",
+	"id": "nodebb-plugin-lastlife-registration-question",
 	"name": "Registration Question",
 	"description": "Question and Answer plugin for the registration form",
-	"url": "https://github.com/NodeBB/nodebb-plugin-registration-question",
+	"url": "https://github.com/lastlifedevs/nodebb-plugin-lastlife-registration-question",
 	"library": "./library.js",
 	"hooks": [
 		{
