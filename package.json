@@ -1,6 +1,6 @@
 {
   "name": "nodebb-plugin-lastlife-registration-question",
-  "version": "0.0.1",
+  "version": "0.1.0",
   "description": "Question and Answer plugin for the NodeBB registration form",
   "main": "library.js",
   "repository": {
@@ -16,13 +16,14 @@
   ],
   "contributors": [
     {
-    "name": "psychobunny",
-    "email": "psycho.bunny@hotmail.com"
+      "name": "psychobunny",
+      "email": "psycho.bunny@hotmail.com"
     },
     {
       "name": "Veegie",
       "email": "veegie@last-life.net"
-    }],
+    }
+  ],
   "license": "BSD-2-Clause",
   "bugs": {
     "url": "https://github.com/lastlifedevs/nodebb-plugin-lastlife-registration-question/issues"
