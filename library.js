@@ -29,7 +29,7 @@ plugin.addCaptcha = function(params, callback) {
 
 	var captcha = {
 		label: 'Registration Question',
-		html: '<div class="well"><strong>' + question + '</strong><br /><input class="form-control" name="registration-question" id="registration-question" /></div>'
+		html: '<div class="well-wrapper groove-border-wrapper"><div class="well"><strong>' + question + '</strong><br /><input class="form-control" name="registration-question" id="registration-question" /></div></div>'
 	};
 
 	if (params.templateData.regFormEntry && Array.isArray(params.templateData.regFormEntry)) {
@@ -45,7 +45,7 @@ plugin.checkRegister = function(params, callback) {
 	var answer = String(meta.config['registration-question:answer']);
 
 	if (answer.toLowerCase() !== params.req.body['registration-question'].toLowerCase()) {
-		callback({source: 'registration-question', message: 'wrong-answer'}, params);
+		callback({source: 'registration-question', message: 'Incorrect answer to Registration Question. Please contact the forum administration if you require assistance with the Registration Question.'}, params);
 	} else {
 		callback(null, params);
 	}
