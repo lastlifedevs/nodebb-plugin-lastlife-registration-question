@@ -1,7 +1,7 @@
 {
 	"id": "nodebb-plugin-lastlife-registration-question",
-	"name": "Registration Question",
-	"description": "Question and Answer plugin for the registration form",
+	"name": "Registration Question - For Last Life NodeBB theme",
+	"description": "Question and Answer plugin for the registration form. A custom fork of nodebb-plugin-registration-question, for nodebb-theme-lastlife.",
 	"url": "https://github.com/lastlifedevs/nodebb-plugin-lastlife-registration-question",
 	"library": "./library.js",
 	"hooks": [
@@ -21,11 +21,5 @@
 	"staticDirs": {
 		"static": "./static"
 	},
-	"less": [
-		"static/style.less"
-	],
-	"scripts": [
-		"static/lib/main.js"
-	],
 	"templates": "static/templates"
 }
